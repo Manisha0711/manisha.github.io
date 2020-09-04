@@ -1,11 +1,8 @@
  /* body*/
- @media only screen and (max-width:300px)
-{/*for phones:*/
  body{
   margin:10px;
   padding: 10px;
   background-color: #d2e7f7;
-}
 }
 h1{color:green;border:5px solid rgba(0,240,0,.5);text-align:center;cursor:pointer;font-family:monospace;font-style:italic;font-weight:bolder;background-color:rgba(0,240,0,.1);padding:10px 20px}
 h2{
@@ -14,10 +11,13 @@ h2{
   text-align:center;
   text-decoration-color: rgba(246, 0, 0, 0.7);
 }
+@media only screen (max-width:200px){
+  }
 .topnav{
   background-color: #b03131;
   overflow: hidden;
   box-shadow:0 -2px 10px #aaa;
+}
 }
 .topnav a{
   float: left;
